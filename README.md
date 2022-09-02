@@ -16,6 +16,15 @@ inserted but instead the word wrapper built into the game takes care of word wra
 a HNS issue with double line breaks, but breaks YNS due to YNS' word wrapper using dash character to
 indicate a word-wrapped word.
 
-As usual help would be appreciated by making a **pull request**.
-
 This program was created by Amanojaku, I requested his permission to upload it.
+
+# Line Merger
+
+This program is used to merge two txt files that are created by the csxtool, this is useful to combine various translations of the same csx file.
+
+Usage: linemerger mainFile.txt TLFile.txt
+
+The program will place lines from TLFile.txt below the lines in mainFile.txt, it should be noted that if the txt file is modified in any way then the program may not work.
+In that case re-export a new txt file from the csx file using the csxtool.
+
+The main (textMerger) function was made by [Shuvi](https://github.com/ShuviSchwarze) and the framework was done by [MrWicked](https://github.com/TheRealMrWicked).
