@@ -18,6 +18,7 @@ indicate a word-wrapped word.
 
 This program was created by Amanojaku, I requested his permission to upload it.
 
+
 # Line Merger
 
 This program is used to merge two txt files that are created by the csxtool, this is useful to combine various translations of the same csx file.
@@ -28,3 +29,17 @@ The program will place lines from TLFile.txt below the lines in mainFile.txt, it
 In that case re-export a new txt file from the csx file using the csxtool.
 
 The main (textMerger) function was made by [Shuvi](https://github.com/ShuviSchwarze) and the framework was done by [MrWicked](https://github.com/TheRealMrWicked).
+
+
+# Line Checker
+
+This program is used on files created by the csxtool, it checks for blank lines and writes them to a file.
+
+Usage: linechecker file.txt
+
+
+# Line Fixer
+
+This program is used on files created by the csxtool, it moves the index count of each line back one number.
+
+Usage: linefixer file.txt
